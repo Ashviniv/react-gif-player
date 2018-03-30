@@ -108,6 +108,7 @@ class GifPlayerContainer extends React.Component {
         still={actualStill}
         playing={playing}
         toggle={() => this.toggle()}
+        { ...this.props }
       />
     );
   }
